@@ -1,0 +1,26 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "Access presentation slides and video delivered by Tiago Tavares",
+  "main": "index.js",
+  "scripts": {
+    "start": "reveal-md ./ --watch",
+    "build": "reveal-md ./ --static build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigTava/presentations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigTava/presentations/issues"
+  },
+  "homepage": "https://github.com/BigTava/presentations#readme",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "reveal-md": "^6.1.4"
+  }
+}
