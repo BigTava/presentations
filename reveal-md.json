@@ -1,0 +1,15 @@
+{
+  "title": "Presentations",
+  "theme": "assets/styles/PBA-theme.css",
+  "css": [
+    "assets/styles/custom-classes.css"
+  ],
+  "assetsDir": ".",
+  "separator": "\r?\n---\r?\n",
+  "verticalSeparator": "\r?\n---v\r?\n",
+  "highlightTheme": "shades-of-purple",
+  "host": "localhost",
+  "staticDirs": [
+    "assets"
+  ]
+}
