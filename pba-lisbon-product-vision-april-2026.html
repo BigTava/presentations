@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-    <title>Building Products on Polkadot is Fu</title>
+    <title>A New Internet for Digital Products</title>
     <link rel="shortcut icon" href="./favicon.ico" />
     <link rel="stylesheet" href="./dist/reset.css" />
     <link rel="stylesheet" href="./dist/reveal.css" />
@@ -21,7 +21,108 @@
 
 <!-- .slide: data-background-image="assets/img/0-Shared/bg/PBA_Background.png" data-background-size="cover" -->
 
-# The Polkadot Stack Template
+# A Better Internet for Digital Services
+
+Note:
+For the next 15 minutes I want to take you on a journey from the user perspective. We're going to walk in the shoes of the people who use digital services every day. Humans. Non-humans. Users with agency, and users without. Agents acting on someone's behalf. Machines acting on their own. The audience for a digital service is wider than we usually think, and the problems we're about to talk about hit all of them.
+
+Our job is to design for every one of those users, not just the ones who click through our onboarding flow.
+
+---
+
+## What is a digital service?
+
+A digital service is software you rely on to do something that matters.
+
+Note:
+Pick one app you used in the last hour. Gmail, Instagram, Discord, GitHub, Uber, your bank. Who owns it? Who runs the server? Who can change the rules tomorrow? Who can kick you off? Who reads your data?
+
+---
+
+## Internet is great
+
+Productivity tools to organize ideas, text, and media, personal or at work. Excel has over **750 million** users.
+
+<small style="font-size: 0.35em; opacity: 0.7;">Source: Microsoft, Ignite 2019 keynote (Rajesh Jha).</small>
+
+Message anyone, anywhere. Stay connected with family and friends. WhatsApp has **3 billion** monthly active users.
+
+<small style="font-size: 0.35em; opacity: 0.7;">Source: Meta, Q1 2025 earnings call.</small>
+
+Send money across. PayPal processes over **$1.5 trillion** a year.
+
+<small style="font-size: 0.35em; opacity: 0.7;">Source: PayPal Q4 2023 earnings.</small>
+
+Note:
+From first principles: the internet gives every person on earth extraordinary capabilities. We organize our ideas, text, and media — at home and at work. We send messages across the world instantly. We move money across borders. This is the baseline — what the medium itself enables, regardless of who's delivering it.
+
+---
+
+## Can we do better?
+
+Europe is proposing a **€300 billion** EuroStack investment to build its own digital infrastructure.
+
+<small style="font-size: 0.35em; opacity: 0.7;">Source: EuroStack initiative / Bertelsmann Stiftung, January 2025.</small>
+
+This week, a US class action accused Meta of letting employees and contractors read supposedly end-to-end-encrypted WhatsApp messages.
+
+<small style="font-size: 0.35em; opacity: 0.7;">Source: WhatsApp class action, California federal court, April 2026.</small>
+
+*"Associations Between Screen-Based Media Use and Brain White Matter Integrity in Preschool-Aged Children"*
+
+<small style="font-size: 0.35em; opacity: 0.7;">Source: Hutton, Dudley, Horowitz-Kraus, DeWitt & Holland. JAMA Pediatrics 174(1):e193869, 2020.</small>
+
+US regulators found all **nine** of the country's largest banks "inappropriately" restricted lawful customers accounts.
+
+<small style="font-size: 0.35em; opacity: 0.7;">Source: Office of the Comptroller of the Currency (OCC) preliminary findings, 2025.</small>
+
+Note:
+Four signals, one direction. Governments are building alternatives because depending on foreign vendors became a national-security risk. Users' most private messages may never have been as private as they were told. The medium we're giving our children is measurably changing their brains. And the supposedly neutral plumbing of money routinely cuts off lawful people for political, religious, or opaque reasons.
+
+None of these are edge cases. They're the shape of the system.
+
+---
+
+## How we access digital services connected to the Internet today
+
+**Browser:** type an `https://` URL.
+
+**App:** install it, open it.
+
+<br/>
+
+Either way, I'm:
+- Running **software I can't see**
+- On **infrastructure someone else runs**
+- **Storing my data** where I don't control it
+
+Note:
+Pause here. Ask the audience: when you open Instagram on your phone, what's actually happening? You tap an icon. Something opens. It shows you a feed. But where does the code come from? Where does the feed come from? Where do your DMs live?
+
+Every digital service today reaches you one of two ways: a URL you type into a browser, or an app you install from a store. Both are thin clients. The browser is rendering JavaScript downloaded from a server somewhere. The app is making API calls to a server somewhere. In both cases, you are running code you can't read, on infrastructure you can't see, and your data lives on disks you don't own.
+
+That's not a bug. That's how the current web was designed. The question we're going to answer in the next few slides is: does it *have* to be that way?
+
+---
+
+## Can we do better?
+
+Can I run software **I can see** end to end?
+
+Can I run the **infrastructure** — or trust someone who does?
+
+Can I have **control over my data**?
+
+Note:
+Three questions, one for each consequence on the last slide.
+
+If I want software I trust, I need to be able to read it — or at least verify that what's running matches what's published. Today, when Instagram updates, you have no way to know what changed. With the right system, every version of the code is addressable and auditable.
+
+If I'm running on someone else's infrastructure, my service stops when they say it stops. The alternative isn't "everyone runs their own server" — that's impractical. The alternative is a network where many independent operators can serve the same code, and none of them can unilaterally take it down.
+
+And my data — my messages, my files, my identity — should be mine. Not a record in someone's database that I borrow access to. Mine: cryptographically, legally, and practically.
+
+These aren't hypothetical. Every one of these is achievable with technology that exists today. The rest of the talk walks through how.
 
           </textarea>
         </section>
