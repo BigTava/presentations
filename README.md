@@ -1,6 +1,6 @@
 # 2026
 
-### Polkadot Blockchain Academy 04/17
+### PBA Campus 04/17
 
 - #### A Better Internet for Digital Services
   - [Markdown](https://github.com/BigTava/presentations/blob/main/pba-lisbon-product-vision-april-2026.md)
